@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ihuoma Samuel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8565df7237.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href=""><i>SamTech Consultants.</i></a>
+             <!-- <img src="Images/img 01.png" class="logo"> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="banner">
+            <div class="header.text">
+                <p></p>
+                <h1>Hi, <span>i'm Ihuoma Samuel u.</span><br>  from Nigeria</h1> <br>
+                <h2><i>Event Consultant <br> Geologist - Mudlog <br> Web Designer <br> Freight Forwarder <br> Freelancer </i></h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/loko motion image 2.jpg">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Taking projects from start to finish requires a comprehensive, 
+                    detail-oriented mindset – which is fortunately what I specialize in, 
+                    alongside several certifications obtained during this time span. Be it organizing events, 
+                    or budgeting resources — my passion and drive for successful completion have
+                    allowed me to manage projects both small-scale
+                     and large-scope within tight deadlines. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experince</p>
+                    <P class="tab-links" onclick="opentab('education')">Education</P>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Hospitality</span><br>Event Planning</li>
+                        <li><span>programming Language</span><br>Html <br>Css <br>javaScript <br>Sql </li>
+                        <li><span>Web Development</span><br>Website Design <br>Building E-commerce</li>
+                        
+                        <li><span>Office Application</span><br>Microsoft Excel <br>Microsoft Word</li>
+                        <li><span>Automobile</span><br>Driving</li>
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Air Cargo Agent</span><br>Nahco</li>
+                        <li><span>Site Engineer</span><br>Natuhab Consultant</li>
+                        <li><span>Maintainace Engineer</span><br>Spur Nigeria</li>
+                        <li><span>Web Development</span><br>SamTech</li>
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="education">
+                    <ul>
+                         <li><span>2013/2018</span><br>Federal University Of Technology Owerri, <br>B.Tech Geology</li>
+                         
+                         <li><span>Full Stack</span><br>Lagos School Of Programing</li>
+                    </ul>                        
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<!-- ---------------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Event Consultant</h2>
+                <p> Plans & executes events- Birthday parties, Weddings, Meetings, Conferences, Receptions, Large expos, & Trade shows.<br> <br>
+                    Helps to secure a venue that will suit my clients.<br> <br>Assists to contract vendors for Venue decoration, Catering, Equipment. <br> <br> 
+                    I ensures that my event runs smoothly without any hitch, & handling any problem that arises during an event & professionally.<br>
+                    Ensures all event standards are strictly adhere to.<br> <br> Take charge of event concepts & implementation 
+                    <a href="">Learn More</a>
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>MudLog Geologist</h2>
+                <p> As a Mudlog Engineer, Drilling activities are monitor & recorded through accurate cuttings, 
+                    which provides information about the well status during extraction of oil,gas,H20, 
+                    these data collected influence importanat decision about the efficiency & placement of the well site.
+                   <a href="">Learn More</a>
+                </p>
+
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Developer</h2>
+                <p>Am a programmer who develops World Wide Web application using a client-server model.
+                     The application typically use HTML,CSS, AND JavaScript in the client, 
+                     and any general-purpose programming language in the server.
+                   <a href="">Learn More</a>
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Freight Forwarder@ NAHCO </h2>
+                <p>Specialized in the arrangement of cargo on behalf of shippers. in most cases, 
+                    provides a variety of supply chain services, including: Ocean or air freight transportation. 
+                    inland transportation from origin and/or to destination.
+                   <a href="">Learn More</a>
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+<!-- -------------------portfolio----------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">    
+                <img src="Images/event planning image.jpg">
+                <div class="layer">
+                    <h3>Event planning</h3>
+                    <p>Your event is our priority. </p>
+                    <a href=""><i class="fa-solid fa-calendar-days"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/mudlog.jpg">
+                <div class="layer">
+                     <h3>Mudlug Geologist</h3>
+                     <p>Earth Scientist, shaping the earth surface. </p>
+                     <a href=""><i class="fa-solid fa-earth-americas"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/coding.webp">
+                <div class="layer">
+                     <h3>Web Developer</h3>
+                     <p>Website Designer.</p>
+                     <a href=""><i class="fa-solid fa-code"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/cargo plane.webp">
+                <div class="layer">
+                     <h3>Freight Forwarder</h3>
+                     <p> Clearing & Exporting Aircargo</p>
+                     <a href=""><i class="fa-solid fa-plane"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="a" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>ihuomasamuel2018@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i>07068574979</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div> 
+                <a href="Images/IHUOMA SAMUEL_UDOCHUKWU_Resume-1.pdf" Download class="btn btn2">Download Cv</a>   
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ SamTech. Made with <i class="fa-solid fa-heart"></i> by Ihuoma Samuel Udochukwu</p>
+
+    </div>
+</div>
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyffUKgFW-dblOAMAnYZBt69H0tUE676FxneznDk68V0s6sG335GszY4IH_G5cmZtqQIw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent succeeefully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>     
+
+    
+
+</script>
+</body>
+</html>
